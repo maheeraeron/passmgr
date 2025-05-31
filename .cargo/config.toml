@@ -1,0 +1,3 @@
+# passmgr/.cargo/config.toml
+[alias]
+clippy-strict = "clippy --workspace --all-targets --all-features -- -D warnings -D clippy::all -D clippy::pedantic"
