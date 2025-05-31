@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "passmgr-core",
+    "passmgr-client",
+    "passmgr-server"
+]
+
+resolver = "3"

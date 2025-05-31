@@ -1,0 +1,40 @@
+# === Rust build artifacts ===
+/target
+**/*.rs.bk
+
+# === IDEs & Editors ===
+# VSCode
+.vscode/
+/.vscode/*
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, RustRover, etc.)
+.idea/
+*.iml
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Runtime ===
+*.log
+
+# === Backups ===
+*~
+*.swp
+*.tmp
+
+# === Cargo local configs ===
+/Cargo.lock
+/passmgr-*/Cargo.lock
+
+# === SQLite DB files (optional, for safety) ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Encrypted exports / secrets ===
+*.bak
+*.enc
+*.vault
+*.export.json
